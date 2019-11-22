@@ -1,0 +1,124 @@
+body {
+    font-family: Andale Mono, monospace;
+    background-color: #1d2e40;
+    margin : 0;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #1d2e40;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: #e9d8c2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: #e9d8c2;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: #1d2e40;
+    display: block;
+    color: orangered;
+    border-bottom: 1px solid orangered;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: #1d2e40;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    position : static;
+    color: #eabda3;
+    text-decoration: none;
+    background-color: #1d2e40
+  }
+  
+  .subnav-content a:hover {
+    color: orangered;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    margin-left: 50px;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    display: block;
+    position: absolute;
+    margin-top: 35px;
+    text-align: left;
+    border-left: 1px solid orangered;
+    border-right: 1px solid orangered;
+    border-radius:5px;
+    background-color: white;
+    color: #1d2e40;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+aside{
+    margin-left: 80%;
+    margin-right: 15px;
+    margin-bottom: 10%;
+    float: right;
+    display: inline-block;
+    margin-top:35px;
+    text-align: left;
+    border-left: 1px solid orangered;
+    border-right: 1px solid orangered;
+    border-radius:5px;
+    background-color: white;
+    color: #1d2e40;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+h1{
+    background-color: #1d2e40;
+    color:white;
+    margin-left:5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    border-top: 4px solid orangered;
+}
+p{
+    margin-bottom: 30px;
+}
+
+@media (max-width: 600px){
+  .pagepetite
+  {
+    display: none;
+  }
+}
